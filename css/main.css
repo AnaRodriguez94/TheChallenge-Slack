@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #541554;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*resets*/
+.head {
+  position: relative;
+  height: 80px;
+  background-color: #541554;
+  border-bottom: none;
+}
+
+#slackLogo {
+  position: absolute;
+  width: 100px;
+  height: 41px;
+  margin-left: 400px;
+  background-color: #541554;
+}
+
+.menu {
+  display: flex;
+  position: static;
+  align-items: flex-end;
+  margin-left: 550px;
+  color: white;
+  background-color: #541554;
+}
+
+.button {
+  @include border-radius(4px);
+  position: relative;
+  /*ajuste posiciones*/
+  margin-left: 1050px;
+  margin-top: -17px;
+  color: white;
+  font-family: $font-family;
+}
+
+.button_speak {
+  font-family: $font-family;
+  background-color: #541554;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.button_try {
+  font-family: $font-family;
+  background-color: white;
+  color: #541554;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.main_body {
+  position: relative;
+  margin-left: 400px;
+  width: 500px;
+  margin-top: px;
+  top: 10px;
+  font-weight: bold;
+}
+
+.think_people {
+  color: white;
+  background-color: #541554;
+  top: 10px;
+  font-size: 2.75rem;
+  @include border-radius(4px);
+}
+
+.think_people-made {
+  color: #ecb22e;
+  background-color: #541554;
+  font-size: 2.5rem;
+}
+
+.rightPeople {
+  background-color: #541554;
+  color: white;
+  font-size: medium;
+}
+
+.email {
+  display: block;
+  margin-bottom: 10px;
+
+  color: #541554;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.google {
+  display: block;
+  margin-bottom: 10px;
+  font-style: none;
+  color: white;
+  background-color: #4285f4;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.tryFree {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.video_body {
+  position: relative;
+  margin-left: 1000px;
+  margin-top: -295px;
+}
+
+#Video {
+
+  width: 50%;
+  height: 50%;
+}
+.presentacion {
+  width: 5%;
+  height: 5%;
+}
+
+footer {
+  position: absolute;
+font-weight: 10px;
+  width: 100%;
+  bottom: 0px;
+  background-color: #f4ede4;
+  padding: 20px;
+  text-align: center;
+}
+
+.imgs {
+  padding: auto;
+  margin: 20px;
+}
+
+@media screen and (min-width: 800) and (max-width: 9999px) {
+  .fa-solid .fa-bars {
+    display: none;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: #541554;
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 767px) {
+  .fa-solid .fa-bars {
+    display: none;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #541554;
+  }
+  @media only screen and (max-width: 768px) {
+    .contenedor {
+      text-align: center;
+    }
+  
+    button {
+      display: inline-block; 
+      margin-bottom: 10px; 
+    }
+  }
+}
+
